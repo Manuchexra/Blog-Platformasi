@@ -1,0 +1,153 @@
+/* Umumiy stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sarlavha stilizatsiyasi */
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+/* Navbar stilizatsiyasi */
+.navbar {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Postlar ro'yxati */
+.post-list {
+    margin-top: 20px;
+}
+
+.post-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-item h2 {
+    margin-top: 0;
+}
+
+.post-item p {
+    margin: 10px 0;
+}
+
+.post-item .meta {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Post detallari */
+.post-detail {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail h1 {
+    margin-top: 0;
+}
+
+.post-detail .content {
+    line-height: 1.6;
+}
+
+.post-detail .meta {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Kommentariyalar */
+.comments {
+    margin-top: 20px;
+}
+
+.comment-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-item .meta {
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Formalar */
+.form-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}

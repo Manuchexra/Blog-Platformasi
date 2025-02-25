@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="form-container">
+    <h2>Logout</h2>
+    <p>You have been logged out.</p>
+    <a href="{% url 'login' %}">Login again</a>
+</div>
+{% endblock %}
