@@ -28,39 +28,7 @@ Django asosida qurilgan to'liq funksional blog platformasi. Foydalanuvchilar ro'
 
 ---
 
-## 📁 Loyiha tuzilmasi
 
-```
-Blog-Platformasi/
-│
-├── blog/                        # Asosiy ilova
-│   ├── migrations/              # Ma'lumotlar bazasi migratsiyalari
-│   ├── templates/blog/          # HTML shablonlar
-│   │   ├── base.html            # Asosiy shablon
-│   │   ├── post_list.html       # Maqolalar ro'yxati
-│   │   ├── post_detail.html     # Maqola tafsiloti
-│   │   ├── post_edit.html       # Maqola yozish / tahrirlash
-│   │   ├── add_comment.html     # Izoh qo'shish
-│   │   ├── register.html        # Ro'yxatdan o'tish
-│   │   ├── login.html           # Tizimga kirish
-│   │   └── logout.html          # Tizimdan chiqish
-│   ├── static/
-│   │   └── styles.css           # Stillar
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py                 # PostForm, CommentForm
-│   ├── models.py                # Post, Comment modellari
-│   ├── tests.py
-│   ├── urls.py                  # URL yo'naltirishlar
-│   └── views.py                 # Barcha ko'rinishlar (views)
-│
-├── blog_project/                # Django loyiha sozlamalari
-├── manage.py
-└── requirements.txt
-```
-
----
 
 ## ⚙️ O'rnatish va ishga tushirish
 
